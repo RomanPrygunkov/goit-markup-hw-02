@@ -23,6 +23,12 @@ li {
     
 }
 
+/* Footer back ground color */
+.bgc-footer {
+    background-color: #2F303A;
+    font-style: inherit;
+}
+
 /* Separate color for logo in head*/
 .logohead-second-color {
     color: #000000;
@@ -67,11 +73,7 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
-/* Footer back ground color */
-.bgc-footer {
-    background-color: #2F303A;
-    font-style: inherit;
-}
+
 /* Buttons styles */
 .buttons-styles {
     font-size: 16px;
