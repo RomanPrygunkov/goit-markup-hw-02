@@ -1,0 +1,112 @@
+:root {
+    --primary-text-color: #FFFFFF;
+    --selected-color: #2196F3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--selected-color);
+    text-decoration: none;
+    
+}
+
+/* Separate color for logo in head*/
+.logohead-second-color {
+    color: #000000;
+}
+
+/* Separate color for logo in footer */
+.logofooter-second-color {
+    color: var(--primary-text-color)
+}
+
+/* Fonts for head list */
+.head-link {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;
+}
+.head-link:hover, 
+.head-link:focus {
+    color: var(--selected-color);
+}
+
+/* Head contacts */
+.head-contacts {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.head-contacts:hover,
+.head-contacts:focus {
+    color: var(--selected-color);
+}
+
+/* Adres */
+.adres {
+font-size: 14px;
+line-height: 1.7px;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+/* Footer back ground color */
+.bgc-footer {
+    background-color: #2F303A;
+    font-style: inherit;
+}
+/* Buttons styles */
+.buttons-styles {
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+/* Buttons styles hover */
+.buttons-styles:hover,
+.buttons-styles:focus {
+background-color: var(--selected-color);
+color: var(--primary-text-color);
+}
+
+/* Fonts for h3 */
+h3 {
+font-size: 18px;
+font-weight: 700;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+/* Fonts for p */
+p{
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+}
+
+
+
+
+
+
+
