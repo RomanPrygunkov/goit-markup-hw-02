@@ -30,6 +30,18 @@ li {
     font-style: inherit;
 }
 
+/* Section 4 bgc */
+
+.team-bgc {
+    background-color: #F5F4FA;
+}
+
+/* Index team style */
+.team-style {
+border-radius: 0px 0px 4px 4px;
+}
+
+
 /* Separate color for logo in head*/
 .logohead-second-color {
     color: #000000;
@@ -210,6 +222,7 @@ color: #757575;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
+
 
 
 
