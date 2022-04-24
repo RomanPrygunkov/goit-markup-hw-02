@@ -2,11 +2,16 @@
     --primary-text-color: #FFFFFF;
     --selected-color: #2196F3;
     --main-black-color: #212121;
+    --links-gray: #757575;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--links-gray);
 }
 
 li {
@@ -15,10 +20,8 @@ li {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
     color: var(--selected-color);
     text-decoration: none;
     
@@ -32,12 +35,12 @@ li {
 
 /* Section 4 bgc */
 
-.team-bgc {
+.staff-bgc {
     background-color: #F5F4FA;
 }
 
 /* Index team style */
-.team-style {
+.staff-style {
 border-radius: 0px 0px 4px 4px;
 }
 
@@ -53,29 +56,25 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /* Fonts for head list */
-.head-link {
-font-size: 14px;
+.nav-link {
 font-weight: 500;
-line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--main-black-color);
 text-decoration: none;
 }
-.head-link:hover, 
-.head-link:focus {
+.nav-link:hover, 
+.nav-link:focus {
     color: var(--selected-color);
 }
-.link-color {
+.nav-link-color {
     color: var(--selected-color);
 }
 
     
 /* Head contacts */
 .head-contacts {
-font-size: 14px;
-line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--links-gray);
 text-decoration: none;
 }
 .head-contacts:hover,
@@ -83,26 +82,22 @@ text-decoration: none;
     color: var(--selected-color);
 }
 
-/* Adres */
-.adres {
-font-size: 14px;
+/* Adress */
+.adress {
 line-height: 1.7px;
-letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 
 
-/* Buttons styles */
-.buttons-styles {
+/* Filter Buttons styles */
+.filter-buttons-styles {
     width: 128px;
     height: 38px;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
     border-style: none;
     border-radius: 4px;
     background-color: #F5F4FA;
@@ -110,8 +105,8 @@ color: var(--primary-text-color);
     cursor: pointer;
 }
 /* Buttons styles hover */
-.buttons-styles:hover,
-.buttons-styles:focus {
+.filter-buttons-styles:hover,
+.filter-buttons-styles:focus {
 background-color: var(--selected-color);
 color: var(--primary-text-color);
 }
@@ -148,82 +143,74 @@ cursor: pointer;
 }
 
 /* Index h1 bgc */
-.main-h1-bgc {
+.main-header-bgc {
 background-color: #2F303A;
 }
 
 /* Fonts for h2 Index */
-.h2-style {
-font-weight: 700;
+.secondary-header {
 font-size: 36px;
 line-height: 42px;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-black-color);
 }
 
-/* Fonts for h3 Section 2 */
-.h3-specification {
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+/* Fonts for h3 Section 2 in Index */
+.specifications-header-style {
+font-size: 14px;    
 text-transform: uppercase;
 color: var(--main-black-color);
 }
 
 /* Fonts for h3 Section 4 */
-.h3-team {
+.staff-title {
 font-weight: 500;
 font-size: 16px;
-line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--main-black-color);
 }
 
 /* Fonts for h3 Porfolio */
-.h3-style-portf {
+.portfolio-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-black-color);
 }
-/* Fonts for p Section 2 */
 
-.p-specification {
+/* Fonts for p Section 2 */
+.specification-title {
 font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
-color: #757575;
+color: var(--links-gray);
 }
+
 /* Fonts for p Section 4 */
-.p-team {
+.staff-descript {
 font-weight: 400;
 font-size: 16px;
-line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
 }
+
 /* Fonts for p Porfolio */
-.p-portf {
+.portfolio-descript {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
-letter-spacing: 0.03em;
-color: #757575;
+color: var(--links-gray);
+
 }
 
 /* Cards in Porfolio */
 
-.card {
+.portfolio-cards {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
-
+.portfolio-cards a {
+    text-decoration: none;
+}
 
 
 
